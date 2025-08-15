@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+      <!--=============== RE MIX ICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.5.0/remixicon.css">
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+      <title>Responsive pizza website - MrDeveloper</title>
+   </head>
+   <body>
+      <!-- === === === === === HEADER === === === === === === -->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav_logo">
+               <img src="./assets/img/logo-pizza.svg" alt="image"> Pizza
+            </a>
+
+            <div class="nav_menu" id="nav-menu">
+               <ul class="nav_list">
+                  <li>
+                     <a href="#home" class="nav_links active-link">Home</a>
+                  </li>
+                  <li>
+                     <a href="#about" class="nav_links">About</a>
+                  </li>
+                  <li>
+                     <a href="#popular" class="nav_links">Popular</a>
+                  </li>
+                  <li>
+                     <a href="#products" class="nav_links">Products</a>
+                  </li>
+                  <li>
+                     <a href="#contact" class="nav_links">Contact</a>
+                  </li>
+               </ul>
+
+               <!-- close button -->
+                <div class="nav_close" id="nav-close">
+                  <i class="ri-close-large-line"></i>
+
+                </div>
+            </div>
+
+            <!-- Toggle Button -->
+             <div class="nav_toggle" id="nav-toggle">
+               <i class="ri-apps-2-fill"></i>
+             </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div class="home_container container grid">
+               <div class="home_data">
+                  <h1 class="home_title">Crispy And <br> Delicious Pizzas</h1>
+                  <p class="home_description">
+                     Order the best pizzas to end your hunger and make your family moments  
+                     more memorable, place your order now.
+                  </p>
+                  <a href="#products" class="button">Order Pizza Now</a>
+                  <img src="./assets/img/sticker-pizza.svg" alt="" class="home_sticker-1">
+                  <img src="./assets/img/sticker-leaf.svg" alt="" class="home_sticker-2">
+               </div>
+               <div class="home_images">
+                  <img src="./assets/img/home-pizza.png" alt="image" class="home_pizza">
+                  <img src="./assets/img/home-board.png" alt="image" class="home_board">
+                  <!-- Leaf-Img -->
+                  <img src="./assets/img/home-leaf-1.png" alt="image" class="home-ingredients home_leaf-1">
+                  <img src="./assets/img/home-leaf-2.png" alt="image" class="home-ingredients home_leaf-2">
+
+                  <img src="./assets/img/home-pepperoni.png" alt="image" class="home-ingredients home_pepperoni">
+                  <img src="./assets/img/home-mushroom.png" alt="image" class="home-ingredients home_mashroom">
+                  <img src="./assets/img/home-olive.png" alt="image" class="home-ingredients home_olive">
+                  <img src="./assets/img/home-tomato.png" alt="image" class="home-ingredients home_tomato">
+               </div>
+            </div>
+         </section>
+
+         <!--==================== ABOUT ====================-->
+         <section class="about section" id="about">
+            <div class="about_container container grid">
+               <div class="about_data">
+                  <h2 class="section_title">Learn More About <br> Our History</h2>
+                  <p class="about_description">
+                     The secret to success is the best ingredients 
+                     to ma ke a better pizza. Today we strive for 
+                     perfection, just as we have been doing for 15 years 
+                     when we first opened the pizzeria in Lima - Peru.
+                  </p>
+                  <a href="#popular" class="button">The Best Pizzas</a>
+                  <img src="./assets/img/sticker-cheese.svg" alt="image" class="about_sticker">
+               </div>
+               <img src="./assets/img/about-img.png" alt="img" class="about_img">
+            </div>
+         </section>
+
+         <!--==================== POPULAR ====================-->
+         <section class="popular section" id="popular">
+            <div class="popular_container container grid">
+               <div class="popular_data">
+                  <h2 class="section_title">Discover <br> Popular Orders</h2>
+                  <p class="popular_description">
+                     Select the best prepared and delicious flavors. 
+                     We have collected some popular recipes from around 
+                     the world for you to choose your favorite.
+                  </p>
+               </div>
+               <div class="popular_swiper swiper">
+                  <img src="./assets/img/popular-dish.png" alt="image" class="popular_dish">
+
+                  <div class="swiper-wrapper">
+                     <article class="popular_card swiper-slide">
+                        <img src="./assets/img/popular-1.png" alt="image" class="popular_img">
+                        <h3 class="popular_title">Margherita Pizza</h3>
+                     </article>
+
+                     <article class="popular_card swiper-slide">
+                        <img src="./assets/img/popular-2.png" alt="image" class="popular_img">
+                        <h3 class="popular_title">Mushroom Pizza</h3>
+                     </article>
+
+                     <article class="popular_card swiper-slide">
+                        <img src="./assets/img/popular-3.png" alt="image" class="popular_img">
+                        <h3 class="popular_title">Pepperoni Pizza</h3>
+                     </article>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+         <!--==================== RECIPE ====================-->
+         <section class="recipe section">
+            <h2 class="section_title">Fresh And <br> Natural Ingredients</h2>
+            <div class="recipe_container container grid">
+               <div class="recipe_list grid">
+                  <div class="recipe_ingredient">
+                     <img src="./assets/img/recipe-flour.png" alt="image" class="recipe_image">
+                     <div>
+                        <h3 class="recipe_name">Flour</h3>
+                        <p class="recipe_description">The best wheat from the field for the best flour.</p>
+                     </div>
+                  </div>
+                  <div class="recipe_ingredient">
+                     <img src="./assets/img/recipe-cheese.png" alt="image" class="recipe_image">
+                     <div>
+                        <h3 class="recipe_name">Cheese</h3>
+                        <p class="recipe_description">Indulge in cheese for a healthy future.</p>
+                     </div>
+                  </div>
+                  <div class="recipe_ingredient">
+                     <img src="./assets/img/recipe-sauces.png" alt="image" class="recipe_image">
+                     <div>
+                        <h3 class="recipe_name">Sauces</h3>
+                        <p class="recipe_description">Add a touch of salsa to your life and it will taste better.</p>
+                     </div>
+                  </div>
+                  <div class="recipe_ingredient">
+                     <img src="./assets/img/recipe-tomato.png" alt="image" class="recipe_image">
+                     <div>
+                        <h3 class="recipe_name">Vegetables</h3>
+                        <p class="recipe_description">Vegetables full of the essence of nature and organic.</p>
+                     </div>
+                  </div>
+                  <div class="recipe_ingredient">
+                     <img src="./assets/img/recipe-meat.png" alt="image" class="recipe_image">
+                     <div>
+                        <h3 class="recipe_name">Meats</h3>
+                        <p class="recipe_description">The best fresh meats for your health.</p>
+                     </div>
+                  </div>
+               </div>
+               <img src="./assets/img/recipe-img.png" alt="image" class="recipe_img">
+            </div>
+         </section>
+
+         <!--==================== PRODUCTS ====================-->
+         <section class="products section" id="products">
+            <h2 class="section_title">The Most <br> Devoured Pizzas</h2>
+            <div class="products_container container grid">
+               <article class="products_card">
+                  <img src="./assets/img/product-1.png" alt="image" class="products_img">
+                  <h3 class="products_name">Vegetarian <br> Pizza</h3>
+                  <span class="products_price">$15</span>
+                  <button class="products_button">
+                     <i class="ri-shopping-bag-3-line"></i>
+                  </button>
+               </article>
+               <article class="products_card">
+                  <img src="./assets/img/product-2.png" alt="image" class="products_img">
+                  <h3 class="products_name">Pepperoni <br> Pizza</h3>
+                  <span class="products_price">$10</span>
+                  <button class="products_button">
+                     <i class="ri-shopping-bag-3-line"></i>
+                  </button>
+               </article>
+               <article class="products_card">
+                  <img src="./assets/img/product-3.png" alt="image" class="products_img">
+                  <h3 class="products_name">Margherita <br> Pizza</h3>
+                  <span class="products_price">$12</span>
+                  <button class="products_button">
+                     <i class="ri-shopping-bag-3-line"></i>
+                  </button>
+               </article>
+               <article class="products_card">
+                  <img src="./assets/img/product-4.png" alt="image" class="products_img">
+                  <h3 class="products_name">Mushroom <br> Pizza</h3>
+                  <span class="products_price">$17</span>
+                  <button class="products_button">
+                     <i class="ri-shopping-bag-3-line"></i>
+                  </button>
+               </article>
+               <article class="products_card">
+                  <img src="./assets/img/product-5.png" alt="image" class="products_img">
+                  <h3 class="products_name">Italian <br> Pizza</h3>
+                  <span class="products_price">$10</span>
+                  <button class="products_button">
+                     <i class="ri-shopping-bag-3-line"></i>
+                  </button>
+               </article>
+            </div>
+         </section> 
+
+         <!--==================== CONTACT ====================-->
+         <section class="contact section" id="contact">
+            <div class="contact_container container grid">
+               <div class="contact_data">
+                  <h2 class="section_title">Contact Now</h2>
+                  <div class="contact_info grid">
+                     <div>
+                        <h3 class="contact_title">Write Us</h3>
+
+                        <div class="contact_social">
+                           <a href="https://api.whatsapp.com/send?phone=923435738616&text=Hello, Need More Information!" target="_blank" class="contact_social-link">
+                              <i class="ri-whatsapp-fill"></i>
+                           </a>
+                           <a href="https://www.instagram.com/mrdeveloper88/" target="_blank" class="contact_social-link">
+                              <i class="ri-messenger-fill"></i>
+                           </a>
+                           <a href="" target="_blank" class="contact_social-link">
+                              <i class="ri-telegram-2-fill"></i>
+                           </a>
+                        </div>
+                     </div>
+                     <div>
+                        <h3 class="contact_title"></h3>
+                        <address class="contact_address">
+                           +00-987-7654-321 <br>
+                           +11-012345
+                        </address>
+                     </div>
+                     <div>
+                        <h3 class="contact_title">Location</h3>
+                        <address class="contact_address">
+                           Punjab, Jhelum <br>
+                           Jada - Chowk
+                        </address>
+
+                        <a href="https://maps.app.goo.gl/3m9wGGNwdrH84T9LA" target="_blank" class="contact_map">
+                           <i class="ri-map-pin-fill"></i>
+                           <span>View on Map</span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="contact_image">
+                  <img src="./assets/img/contact-img.png" alt="image" class="contact_img">
+               </div>
+
+               <img src="./assets/img/sticker-tomato.svg" alt="image" class="contact_sticker-1">
+               <img src="./assets/img/sticker-mushroom.svg" alt="image" class="contact_sticker-2">
+               <img src="./assets/img/sticker-onion.svg" alt="image" class="contact_sticker-3">
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer_container container grid">
+            <a href="#" class="footer_logo">Pizza</a>
+            
+            <div class="footer_content grid">
+               <div>
+                  <h3 class="footer_title">Social</h3>
+                  <div class="footer_social">
+                     <a href="https://www.facebook.com/" target="_blank" class="footer_social-link">
+                        <i class="ri-facebook-circle-line"></i>
+                     </a>
+                     <a href="https://www.instagram.com/mrdeveloper88/" target="_blank" class="footer_social-link">
+                        <i class="ri-instagram-line"></i>
+                     </a>
+                     <a href="https://twitter.com/" target="_blank" class="footer_social-link">
+                        <i class="ri-twitter-x-line"></i>
+                     </a>
+                  </div>
+               </div>
+               <div>
+                  <h3 class="footer_title">Payment Methods</h3>
+                  <div class="footer_pay">
+                     <img src="./assets/img/footer-card-1.png" alt="image" class="footer_pay-img">
+                     <img src="./assets/img/footer-card-2.png" alt="image" class="footer_pay-img">
+                     <img src="./assets/img/footer-card-3.png" alt="image" class="footer_pay-img">
+                     <img src="./assets/img/footer-card-4.png" alt="image" class="footer_pay-img">
+                  </div>
+               </div>
+               <div>
+                  <h3 class="footer_title">Subscribe for Discounts</h3>
+                  <form action="" class="footer_form">
+                     <input type="email" placeholder="Email" class="footer_input">
+                     <button type="submit" class="footer_button button">Subscribe</button>
+                  </form>
+               </div>
+            </div>
+         </div>
+         <div class="footer_policy">
+            <a href="#" class="footer_link">Terms & Agreements</a>
+            <a href="#" class="footer_link">Privacy Policy</a>
+         </div>
+         <span class="footer_copy">
+            &#169; All Rights Reserved By MrDeveloper
+         </span>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLL REVEAL ===============-->
+      <script src="./assets/js/scrollreveal.min.js"></script>
+      
+      <!--=============== SWIPER JS ===============-->
+      <script src="./assets/js/swiper-bundle.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
